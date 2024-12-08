@@ -2,15 +2,12 @@
 
 This is our Connect 4 AI for the Minds and Machines Connect 4 Project 
 
-Link to Report:
-https://docs.google.com/document/d/1-dDO5mXBttYbzZ3cBEFF1mnbpyPeIA_D1hy030kfWCQ/edit?usp=sharing
-
 This code is built off the following dependencies hooking up to a server via websockets 
 
 Link to Server/Dependencies: 
 https://github.com/exoRift/mindsmachines-connect4/blob/master/documentation/introduction.md
 
-Connect-4 write-up - Timothy Pollard, Jordan Walek
+Connect-4 Report - Timothy Pollard, Jordan Walek
 
 1. 	INTRODUCTION
 Connect-4 involves many cognitive functions like planning, pattern recognition, and decision-making to analyze the board and predict future moves. We chose this project because we wanted to create a full-function AI that works to play a childhood game that we all know and love, Connect-4, that will beat a human every time it plays and mimic these cognitive functions. Our final version of this game will be a fully functioning AI that a human can play against. It will be able to predict the humans' next move and be able to solve this game so that the humans to lose every time. The question that we hope to answer; is whether it is possible to create a program that will take account of every possible move on a connect-4 board and choose the best move to get 4 in a row the fastest and beat the human who is playing.
