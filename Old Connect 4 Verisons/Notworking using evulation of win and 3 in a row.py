@@ -2,7 +2,7 @@
 """
 Created on Mon Dec  2 15:02:59 2024
 
-@author: Tim
+@author: Tim/Jordan
 """
 import asyncio
 import websockets
