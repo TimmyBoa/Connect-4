@@ -6,6 +6,5 @@ Link to Report:
 https://docs.google.com/document/d/1-dDO5mXBttYbzZ3cBEFF1mnbpyPeIA_D1hy030kfWCQ/edit?usp=sharing
 
 This code is built off the following dependencies hooking up to a server via websockets 
-
-Link to Server/Dependencies: 
+Link to Dependencies: 
 https://github.com/exoRift/mindsmachines-connect4/blob/master/documentation/introduction.md
