@@ -1,6 +1,6 @@
 # Connect-4
 
-This is my Connect 4 Ai for the Minds and Machines Connect 4 Project 
+This is our Connect 4 Ai for the Minds and Machines Connect 4 Project 
 
 Link to Google Doc write Up:
 https://docs.google.com/document/d/1-dDO5mXBttYbzZ3cBEFF1mnbpyPeIA_D1hy030kfWCQ/edit?usp=sharing
