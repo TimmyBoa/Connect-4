@@ -248,14 +248,23 @@ async def gameloop(socket, created):
         match message[0]: 
             case 'GAMESTART': #Game Started
                 if created:
-                    col = calculate_move(board, 1, 6) #Finds best move
+                    valid_moves=[]
+                    for col in range(len(board[0])):
+                        if is_valid_move(board, col):
+                            valid_moves.append(col)
+                    col = calculate_move(board, 1, 13-len(valid_moves)) #Finds best move
                     make_move(board, col, 1) #Updates Board
                     await socket.send(f'PLAY:{col}') #Send move to the Server
                     
                 
             case 'OPPONENT': #Opponent has Moved 
+            
                 make_move(board, int(message[1]), 2) #Updates Board
-                col = calculate_move(board, 1, 6) #Finds best move
+                valid_moves=[]
+                for col in range(len(board[0])):
+                    if is_valid_move(board, col):
+                        valid_moves.append(col)
+                col = calculate_move(board, 1, 13-len(valid_moves)) #Finds best move
                 make_move(board, col, 1)  #Updates board
                 await socket.send(f'PLAY:{col}') #Send move to the sever
                 
