@@ -1,5 +1,6 @@
 # Connect-4
 Authors: Jordan Walek and Timothy Pollard 
+
 This is our Connect 4 AI for the INQR-1140 Minds and Machines Connect 4 Project
 
 Link to Report:
